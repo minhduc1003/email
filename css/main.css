@@ -1,0 +1,43 @@
+:root{
+    --text-color: #B5B3AF;
+    --White-text: #FFFFFF;
+    --linear-color: 45deg,#E4FF4C,#00BD82;
+    --bg1E-color:#1E1E1E;
+    --primary-btn-color:#00BD82;
+    --main-color:#FDF9F1;
+    --des-color:#4F4D49;
+
+}
+
+.linear-color{
+    
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient( var(--linear-color));;
+
+}
+
+body{
+    background-color: var(--main-color);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: 'Sora', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+ ::-webkit-scrollbar-thumb{
+    background: var(--text-color);
+}
+/* ::-webkit-scrollbar-track{
+    background-color: var(--text-color);
+}  */

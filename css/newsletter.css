@@ -1,0 +1,129 @@
+.container{
+    padding-left: 245px;
+    display: flex;
+    gap: 0 50px;
+}
+.container__details{
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+}
+.newsletter__heading{
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.newsletter__title{
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+.newsletter__des{
+    color: var(--des-color);
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.container__title{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    max-width: 378px;
+    /* text-align: justify; */
+    margin-bottom: 40px;
+}
+.container__des{
+    color: var(--des-color);
+    max-width: 508px;
+    text-align: justify;
+}
+.container__list{
+    display: flex;
+    gap: 0 77px;
+}
+.container__item{
+    list-style: none;
+}
+.container__logo{
+    margin-bottom: 20px;
+}
+.container__item--title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.container__item--des{
+    color: var(--des-color);
+    text-align: justify;
+    max-width: 265px;
+    margin-bottom: 43px;
+}
+.container__item--link{
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+.container__item--link::after{
+    content: "";
+    height: 3px;
+    width: 90px;
+    background-color: #00BD82;
+    z-index: 100;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+@media (max-width:700px){
+    .newsletter__heading{
+        max-width: 320px;
+    }
+    .newsletter__title{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .newsletter__des{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-left: 0;
+        gap: 50px 400px;
+        margin-bottom: 60px;
+        
+    }
+    .newsletter__heading{
+        max-width: 320px;
+    }
+    .container--img{
+        
+        width: 322.45px;
+        height: 394px;
+        align-self: flex-end;
+        
+        
+    }
+    .container__title{
+        max-width: 290px;
+        font-size: 24px ;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .container__details{
+        align-items: center;
+    }
+    .container__des{
+        max-width: 290px;
+        font-size: 14px;
+    }
+    .container__list{
+        flex-direction: column;
+        gap: 80px 0;
+       
+    }
+}

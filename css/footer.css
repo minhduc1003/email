@@ -1,0 +1,105 @@
+.footer{
+    background-color: var(--bg1E-color);
+    padding: 100px 0;
+}
+.footer__heading{
+    max-width: 447px;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 63px;
+    font-weight: 600;
+    color: var(--White-text);
+    margin-bottom: 22px;
+}
+.footer__des{
+  max-width: 339px;
+  margin: 0 auto;  
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 35px;
+}
+.footer__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 223px;
+    height: 58px;
+    border-radius: 10px;
+    gap: 0 23px;
+    background-color: var(--primary-btn-color);
+    text-decoration: none;
+    margin-bottom: 75px;
+}
+.footer__btn--text{
+    color:var(--White-text);
+}
+.footer__list{
+    display: flex;
+    justify-content: center;
+    gap: 0 114px;
+}
+.footer__text{
+    margin: 35px 0;
+    font-size: 16px;
+    max-width: 280px;
+    color: var(--text-color);
+}
+.footer-heading{
+    color: var(--White-text);
+}
+.footer__link{
+    margin: 20px 0;
+    color: var(--text-color);
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer__item{
+    list-style: none;
+}
+.footer__logo{
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+@media (max-width:700px){
+    .footer__logo{
+        display: flex;
+    }
+    .footer__logo{
+        max-width:200px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .footer__logo--icon{
+        width: 30px;
+        height: 30px;
+    }
+    .footer__logo--name{
+        font-size: 20px;
+        display: inline;
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-image: linear-gradient( var(--linear-color));;
+    }
+    .footer__item{
+        display: none;
+    }
+    .footer__heading{
+        font-size: 30px;
+        line-height: 37.8px;
+        max-width: 286px;
+    }
+    .footer__des{
+        font-size: 14px;
+        max-width: 256px;
+    }
+    .footer__btn{
+        width: 223px;
+        height: 58px;
+        gap: 0 15px;
+    }
+}

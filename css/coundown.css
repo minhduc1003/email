@@ -1,0 +1,34 @@
+.coundown{
+    margin-bottom: 150px;
+}
+
+.coundown__list{
+    background: #E2F471;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    gap: 0 140px;
+    text-align: center;
+}
+.coundown__item{
+    list-style: none;
+    padding-bottom:50px ;
+}
+.coundown__title{
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 42px ;
+    margin-top: 60px;
+}
+.coundown__des{
+    color: var(--des-color);
+    font-size: 18px;
+}
+@media (max-width:700px){
+    .coundown__list{
+        flex-direction: column;
+        
+    }
+}
